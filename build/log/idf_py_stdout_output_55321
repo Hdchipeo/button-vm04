@@ -1,0 +1,167 @@
+[0/1] Re-running CMake...
+-- Component directory /Users/dangminhtam/esp/esp-idf/components/esp-idf-mpu6050-dmp does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /Users/dangminhtam/esp/esp-idf/components/esp-idf-ssd1306 does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /Users/dangminhtam/esp/esp-idf/components/esp-iot-solution does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /Users/dangminhtam/esp/esp-idf/components/esp-rainmaker does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /Users/dangminhtam/esp/esp-idf/components/esp-who does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /Users/dangminhtam/esp/esp-idf/components/my-component does not contain a CMakeLists.txt file. No component will be added
+-- Building ESP-IDF components for target esp32
+NOTICE: Skipping optional dependency: espressif/usb_host_cdc_acm
+NOTICE: Using component placed at /Users/dangminhtam/esp/esp-idf/components/my-component/ota for dependency "ota", specified in /Users/dangminhtam/esp32-test/Button-remote/main/idf_component.yml
+NOTICE: Skipping optional dependency: espressif/usb_host_cdc_acm
+NOTICE: Skipping optional dependency: espressif/usb_host_cdc_acm
+NOTICE: Processing 16 dependencies:
+NOTICE: [1/16] espressif/cbor (0.6.0~2)
+NOTICE: [2/16] espressif/cmake_utilities (1.1.1)
+NOTICE: [3/16] espressif/esp-serial-flasher (1.8.0)
+NOTICE: [4/16] espressif/esp_rainmaker (1.6.4)
+NOTICE: [5/16] espressif/esp_rcp_update (1.4.0)
+NOTICE: [6/16] espressif/esp_schedule (1.2.0)
+NOTICE: [7/16] espressif/esp_secure_cert_mgr (2.5.1)
+NOTICE: [8/16] espressif/jsmn (1.1.0)
+NOTICE: [9/16] espressif/json_generator (1.1.2)
+NOTICE: [10/16] espressif/json_parser (1.0.3)
+NOTICE: [11/16] espressif/mdns (1.8.2)
+NOTICE: [12/16] espressif/network_provisioning (1.0.5)
+NOTICE: [13/16] espressif/qrcode (0.1.0~2)
+NOTICE: [14/16] espressif/rmaker_common (1.4.12)
+NOTICE: [15/16] ota (*) (/Users/dangminhtam/esp/esp-idf/components/my-component/ota)
+NOTICE: [16/16] idf (5.3.1)
+NOTICE: Skipping optional dependency: espressif/usb_host_cdc_acm
+-- Project sdkconfig file /Users/dangminhtam/esp32-test/Button-remote/sdkconfig
+Loading defaults file /Users/dangminhtam/esp32-test/Button-remote/sdkconfig.defaults...
+/Users/dangminhtam/esp32-test/Button-remote/sdkconfig.defaults:53 CONFIG_ESP_RMAKER_LOCAL_CTRL_ENABLE was replaced with CONFIG_ESP_RMAKER_LOCAL_CTRL_AUTO_ENABLE 
+warning: unknown kconfig symbol 'MBEDTLS_DYNAMIC_FREE_PEER_CERT' assigned to 'y' in /Users/dangminhtam/esp32-test/Button-remote/sdkconfig.defaults
+warning: unknown kconfig symbol 'ESP_INSIGHTS_TRANSPORT_MQTT' assigned to 'y' in /Users/dangminhtam/esp32-test/Button-remote/sdkconfig.defaults
+Loading defaults file /Users/dangminhtam/esp32-test/Button-remote/sdkconfig.defaults.esp32...
+warning: unknown kconfig symbol 'MBEDTLS_DYNAMIC_FREE_PEER_CERT' assigned to 'y' in /Users/dangminhtam/esp32-test/Button-remote/sdkconfig.defaults.esp32
+warning: unknown kconfig symbol 'ESP_INSIGHTS_TRANSPORT_MQTT' assigned to 'y' in /Users/dangminhtam/esp32-test/Button-remote/sdkconfig.defaults.esp32
+-- Compiler supported targets: xtensa-esp-elf
+-- App "button-device" version: 1.9
+-- Adding linker script /Users/dangminhtam/esp32-test/Button-remote/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/dangminhtam/esp32-test/Button-remote/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /Users/dangminhtam/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/dangminhtam/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/dangminhtam/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/dangminhtam/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/dangminhtam/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/dangminhtam/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/dangminhtam/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- BUTTON: 4.1.3
+-- Components: app_trace app_update bootloader bootloader_support bt button cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_vfs_console esp_wifi espcoredump espressif__cbor espressif__cmake_utilities espressif__esp-serial-flasher espressif__esp_rainmaker espressif__esp_rcp_update espressif__esp_schedule espressif__esp_secure_cert_mgr espressif__jsmn espressif__json_generator espressif__json_parser espressif__mdns espressif__network_provisioning espressif__qrcode espressif__rmaker_common esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread ota partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/dangminhtam/esp/esp-idf/components/app_trace /Users/dangminhtam/esp/esp-idf/components/app_update /Users/dangminhtam/esp/esp-idf/components/bootloader /Users/dangminhtam/esp/esp-idf/components/bootloader_support /Users/dangminhtam/esp/esp-idf/components/bt /Users/dangminhtam/esp/esp-idf/components/esp-iot-solution/components/button /Users/dangminhtam/esp/esp-idf/components/cmock /Users/dangminhtam/esp/esp-idf/components/console /Users/dangminhtam/esp/esp-idf/components/cxx /Users/dangminhtam/esp/esp-idf/components/driver /Users/dangminhtam/esp/esp-idf/components/efuse /Users/dangminhtam/esp/esp-idf/components/esp-tls /Users/dangminhtam/esp/esp-idf/components/esp_adc /Users/dangminhtam/esp/esp-idf/components/esp_app_format /Users/dangminhtam/esp/esp-idf/components/esp_bootloader_format /Users/dangminhtam/esp/esp-idf/components/esp_coex /Users/dangminhtam/esp/esp-idf/components/esp_common /Users/dangminhtam/esp/esp-idf/components/esp_driver_ana_cmpr /Users/dangminhtam/esp/esp-idf/components/esp_driver_cam /Users/dangminhtam/esp/esp-idf/components/esp_driver_dac /Users/dangminhtam/esp/esp-idf/components/esp_driver_gpio /Users/dangminhtam/esp/esp-idf/components/esp_driver_gptimer /Users/dangminhtam/esp/esp-idf/components/esp_driver_i2c /Users/dangminhtam/esp/esp-idf/components/esp_driver_i2s /Users/dangminhtam/esp/esp-idf/components/esp_driver_isp /Users/dangminhtam/esp/esp-idf/components/esp_driver_jpeg /Users/dangminhtam/esp/esp-idf/components/esp_driver_ledc /Users/dangminhtam/esp/esp-idf/components/esp_driver_mcpwm /Users/dangminhtam/esp/esp-idf/components/esp_driver_parlio /Users/dangminhtam/esp/esp-idf/components/esp_driver_pcnt /Users/dangminhtam/esp/esp-idf/components/esp_driver_ppa /Users/dangminhtam/esp/esp-idf/components/esp_driver_rmt /Users/dangminhtam/esp/esp-idf/components/esp_driver_sdio /Users/dangminhtam/esp/esp-idf/components/esp_driver_sdm /Users/dangminhtam/esp/esp-idf/components/esp_driver_sdmmc /Users/dangminhtam/esp/esp-idf/components/esp_driver_sdspi /Users/dangminhtam/esp/esp-idf/components/esp_driver_spi /Users/dangminhtam/esp/esp-idf/components/esp_driver_touch_sens /Users/dangminhtam/esp/esp-idf/components/esp_driver_tsens /Users/dangminhtam/esp/esp-idf/components/esp_driver_uart /Users/dangminhtam/esp/esp-idf/components/esp_driver_usb_serial_jtag /Users/dangminhtam/esp/esp-idf/components/esp_eth /Users/dangminhtam/esp/esp-idf/components/esp_event /Users/dangminhtam/esp/esp-idf/components/esp_gdbstub /Users/dangminhtam/esp/esp-idf/components/esp_hid /Users/dangminhtam/esp/esp-idf/components/esp_http_client /Users/dangminhtam/esp/esp-idf/components/esp_http_server /Users/dangminhtam/esp/esp-idf/components/esp_https_ota /Users/dangminhtam/esp/esp-idf/components/esp_https_server /Users/dangminhtam/esp/esp-idf/components/esp_hw_support /Users/dangminhtam/esp/esp-idf/components/esp_lcd /Users/dangminhtam/esp/esp-idf/components/esp_local_ctrl /Users/dangminhtam/esp/esp-idf/components/esp_mm /Users/dangminhtam/esp/esp-idf/components/esp_netif /Users/dangminhtam/esp/esp-idf/components/esp_netif_stack /Users/dangminhtam/esp/esp-idf/components/esp_partition /Users/dangminhtam/esp/esp-idf/components/esp_phy /Users/dangminhtam/esp/esp-idf/components/esp_pm /Users/dangminhtam/esp/esp-idf/components/esp_psram /Users/dangminhtam/esp/esp-idf/components/esp_ringbuf /Users/dangminhtam/esp/esp-idf/components/esp_rom /Users/dangminhtam/esp/esp-idf/components/esp_system /Users/dangminhtam/esp/esp-idf/components/esp_timer /Users/dangminhtam/esp/esp-idf/components/esp_vfs_console /Users/dangminhtam/esp/esp-idf/components/esp_wifi /Users/dangminhtam/esp/esp-idf/components/espcoredump /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__cbor /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__cmake_utilities /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__esp-serial-flasher /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__esp_rainmaker /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__esp_rcp_update /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__esp_schedule /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__esp_secure_cert_mgr /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__jsmn /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__json_generator /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__json_parser /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__mdns /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__network_provisioning /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__qrcode /Users/dangminhtam/esp32-test/Button-remote/managed_components/espressif__rmaker_common /Users/dangminhtam/esp/esp-idf/components/esptool_py /Users/dangminhtam/esp/esp-idf/components/fatfs /Users/dangminhtam/esp/esp-idf/components/freertos /Users/dangminhtam/esp/esp-idf/components/hal /Users/dangminhtam/esp/esp-idf/components/heap /Users/dangminhtam/esp/esp-idf/components/http_parser /Users/dangminhtam/esp/esp-idf/components/idf_test /Users/dangminhtam/esp/esp-idf/components/ieee802154 /Users/dangminhtam/esp/esp-idf/components/json /Users/dangminhtam/esp/esp-idf/components/log /Users/dangminhtam/esp/esp-idf/components/lwip /Users/dangminhtam/esp32-test/Button-remote/main /Users/dangminhtam/esp/esp-idf/components/mbedtls /Users/dangminhtam/esp/esp-idf/components/mqtt /Users/dangminhtam/esp/esp-idf/components/newlib /Users/dangminhtam/esp/esp-idf/components/nvs_flash /Users/dangminhtam/esp/esp-idf/components/nvs_sec_provider /Users/dangminhtam/esp/esp-idf/components/openthread /Users/dangminhtam/esp/esp-idf/components/my-component/ota /Users/dangminhtam/esp/esp-idf/components/partition_table /Users/dangminhtam/esp/esp-idf/components/perfmon /Users/dangminhtam/esp/esp-idf/components/protobuf-c /Users/dangminhtam/esp/esp-idf/components/protocomm /Users/dangminhtam/esp/esp-idf/components/pthread /Users/dangminhtam/esp/esp-idf/components/sdmmc /Users/dangminhtam/esp/esp-idf/components/soc /Users/dangminhtam/esp/esp-idf/components/spi_flash /Users/dangminhtam/esp/esp-idf/components/spiffs /Users/dangminhtam/esp/esp-idf/components/tcp_transport /Users/dangminhtam/esp/esp-idf/components/ulp /Users/dangminhtam/esp/esp-idf/components/unity /Users/dangminhtam/esp/esp-idf/components/usb /Users/dangminhtam/esp/esp-idf/components/vfs /Users/dangminhtam/esp/esp-idf/components/wear_levelling /Users/dangminhtam/esp/esp-idf/components/wifi_provisioning /Users/dangminhtam/esp/esp-idf/components/wpa_supplicant /Users/dangminhtam/esp/esp-idf/components/xtensa
+-- Configuring done (8.5s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/dangminhtam/esp32-test/Button-remote/build
+[1/13] Performing build step for 'bootloader'
+[1/1] cd /Users/dangminhtam/esp32-test/Button-remote/build/bootloader/esp-idf/esptool_py && /Users/dangminhtam/.espressif/python_env/idf5.3_py3.13_env/bin/python /Users/dangminhtam/esp/esp-idf/components/partition_table/check_sizes.py --offset 0xc000 bootloader 0x1000 /Users/dangminhtam/esp32-test/Button-remote/build/bootloader/bootloader.bin
+Bootloader binary size 0x60b0 bytes. 0x4f50 bytes (45%) free.
+[2/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[3/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_driver.c.obj
+[4/13] No install step for 'bootloader'
+[5/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_now_hub.c.obj
+[6/13] Completed 'bootloader'
+[7/13] Linking C static library esp-idf/main/libmain.a
+[8/13] Generating ld/sections.ld
+[9/13] Linking CXX executable button-device.elf
+[10/13] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/dangminhtam/esp32-test/Button-remote/build/button-device.bin
+[11/13] cd /Users/dangminhtam/esp32-test/Button-remote/build/esp-idf/esptool_py && /Users/dangminhtam/.espressif/python_env/idf5.3_py3.13_env/bin/python /Users/dangminhtam/esp/esp-idf/components/partition_table/check_sizes.py --offset 0xc000 partition --type app /Users/dangminhtam/esp32-test/Button-remote/build/partition_table/partition-table.bin /Users/dangminhtam/esp32-test/Button-remote/build/button-device.bin
+button-device.bin binary size 0x169a20 bytes. Smallest app partition is 0x1c0000 bytes. 0x565e0 bytes (19%) free.
+[11/13] cd /Users/dangminhtam/esp/esp-idf/components/esptool_py && /opt/local/bin/cmake -D IDF_PATH=/Users/dangminhtam/esp/esp-idf -D "SERIAL_TOOL=/Users/dangminhtam/.espressif/python_env/idf5.3_py3.13_env/bin/python;;/Users/dangminhtam/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/dangminhtam/esp32-test/Button-remote/build -P /Users/dangminhtam/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/cu.usbserial-10 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x20000 button-device.bin 0xc000 partition_table/partition-table.bin 0x16000 ota_data_initial.bin
+esptool.py v4.8.1
+Serial port /dev/cu.usbserial-10
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: e4:65:b8:11:7f:9c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00020000 to 0x00189fff...
+Flash will be erased from 0x0000c000 to 0x0000cfff...
+Flash will be erased from 0x00016000 to 0x00017fff...
+SHA digest in image updated
+Compressed 24752 bytes to 15359...
+Writing at 0x00001000... (100 %)
+Wrote 24752 bytes (15359 compressed) at 0x00001000 in 0.7 seconds (effective 298.9 kbit/s)...
+Hash of data verified.
+Compressed 1481248 bytes to 898300...
+Writing at 0x00020000... (1 %)
+Writing at 0x0002e6b7... (3 %)
+Writing at 0x0003dbf8... (5 %)
+Writing at 0x0004b0c5... (7 %)
+Writing at 0x00053a1a... (9 %)
+Writing at 0x0005a4b0... (10 %)
+Writing at 0x0005f2d6... (12 %)
+Writing at 0x00067338... (14 %)
+Writing at 0x00072ca1... (16 %)
+Writing at 0x0007852a... (18 %)
+Writing at 0x0007e4ac... (20 %)
+Writing at 0x000841ea... (21 %)
+Writing at 0x00089c25... (23 %)
+Writing at 0x0008f647... (25 %)
+Writing at 0x00095e06... (27 %)
+Writing at 0x0009c78b... (29 %)
+Writing at 0x000a2768... (30 %)
+Writing at 0x000a8768... (32 %)
+Writing at 0x000ae694... (34 %)
+Writing at 0x000b4690... (36 %)
+Writing at 0x000ba5fa... (38 %)
+Writing at 0x000c0045... (40 %)
+Writing at 0x000c5d5f... (41 %)
+Writing at 0x000cbbc5... (43 %)
+Writing at 0x000d19c3... (45 %)
+Writing at 0x000d8396... (47 %)
+Writing at 0x000de2e2... (49 %)
+Writing at 0x000e411d... (50 %)
+Writing at 0x000ea8bd... (52 %)
+Writing at 0x000f0444... (54 %)
+Writing at 0x000f62c1... (56 %)
+Writing at 0x000fbf31... (58 %)
+Writing at 0x00101801... (60 %)
+Writing at 0x001069fd... (61 %)
+Writing at 0x0010bffb... (63 %)
+Writing at 0x00111239... (65 %)
+Writing at 0x00116977... (67 %)
+Writing at 0x0011c01d... (69 %)
+Writing at 0x00121903... (70 %)
+Writing at 0x00127259... (72 %)
+Writing at 0x0012cf51... (74 %)
+Writing at 0x00132bde... (76 %)
+Writing at 0x00138715... (78 %)
+Writing at 0x0013e6a9... (80 %)
+Writing at 0x0014496c... (81 %)
+Writing at 0x0014a4ed... (83 %)
+Writing at 0x001507d6... (85 %)
+Writing at 0x0015ac7b... (87 %)
+Writing at 0x001622d9... (89 %)
+Writing at 0x0016809e... (90 %)
+Writing at 0x0016e665... (92 %)
+Writing at 0x00174376... (94 %)
+Writing at 0x001798e6... (96 %)
+Writing at 0x0017f7de... (98 %)
+Writing at 0x00184eb8... (100 %)
+Wrote 1481248 bytes (898300 compressed) at 0x00020000 in 22.5 seconds (effective 527.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 196...
+Writing at 0x0000c000... (100 %)
+Wrote 3072 bytes (196 compressed) at 0x0000c000 in 0.0 seconds (effective 522.9 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x00016000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x00016000 in 0.1 seconds (effective 976.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

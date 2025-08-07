@@ -5,4 +5,7 @@ dependencies:
     version: ">=5.0.0"
   espressif/esp_rainmaker:
     version: ">=1.0"
+  ota:
+    path: ${IDF_PATH}/components/my-component/ota
+  
   

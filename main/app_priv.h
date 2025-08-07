@@ -8,18 +8,12 @@
 #pragma once
 #include <stdint.h>
 #include <stdbool.h>
-#include "esp_now_hub.h"
 
-#define DEFAULT_POWER false
 /* This is the button that is used for toggling the power */
-#define BUTTON_GPIO          1
+#define BUTTON_1          GPIO_NUM_0
+#define BUTTON_2          GPIO_NUM_3
 #define BUTTON_ACTIVE_LEVEL  0
-/* This is the GPIO on which the power will be set */
-#define LIGHT_GPIO    2
 
-#define WIFI_RESET_BUTTON_TIMEOUT  3
-#define FACTORY_RESET_BUTTON_TIMEOUT  10
-
-
-void set_light_state(light_state_t power);
-void app_light_init();
+void app_button_start();
+void read_nvs(bool *ota_enabled);
+void write_nvs(bool ota_enabled);

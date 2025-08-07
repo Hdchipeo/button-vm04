@@ -1,0 +1,91 @@
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[2/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_driver.c.obj
+[3/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_now_hub.c.obj
+[4/9] Linking C static library esp-idf/main/libmain.a
+[5/9] Generating ld/sections.ld
+[6/9] Linking CXX executable button-device.elf
+[7/9] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/dangminhtam/esp32-test/Button-remote/build/button-device.bin
+[8/9] cd /Users/dangminhtam/esp32-test/Button-remote/build/esp-idf/esptool_py && /Users/dangminhtam/.espressif/python_env/idf5.3_py3.13_env/bin/python /Users/dangminhtam/esp/esp-idf/components/partition_table/check_sizes.py --offset 0xc000 partition --type app /Users/dangminhtam/esp32-test/Button-remote/build/partition_table/partition-table.bin /Users/dangminhtam/esp32-test/Button-remote/build/button-device.bin
+button-device.bin binary size 0x169a20 bytes. Smallest app partition is 0x1c0000 bytes. 0x565e0 bytes (19%) free.
+[8/9] cd /Users/dangminhtam/esp/esp-idf/components/esptool_py && /opt/local/bin/cmake -D IDF_PATH=/Users/dangminhtam/esp/esp-idf -D "SERIAL_TOOL=/Users/dangminhtam/.espressif/python_env/idf5.3_py3.13_env/bin/python;;/Users/dangminhtam/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args" -D WORKING_DIRECTORY=/Users/dangminhtam/esp32-test/Button-remote/build -P /Users/dangminhtam/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/cu.usbserial-10 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x20000 button-device.bin
+esptool.py v4.8.1
+Serial port /dev/cu.usbserial-10
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: e4:65:b8:11:7f:9c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00020000 to 0x00189fff...
+Compressed 1481248 bytes to 898294...
+Writing at 0x00020000... (1 %)
+Writing at 0x0002e6c1... (3 %)
+Writing at 0x0003dc08... (5 %)
+Writing at 0x0004b0dd... (7 %)
+Writing at 0x00053a1f... (9 %)
+Writing at 0x0005a4b5... (10 %)
+Writing at 0x0005f2db... (12 %)
+Writing at 0x00067347... (14 %)
+Writing at 0x00072ca9... (16 %)
+Writing at 0x0007852f... (18 %)
+Writing at 0x0007e4b4... (20 %)
+Writing at 0x000841f4... (21 %)
+Writing at 0x00089c29... (23 %)
+Writing at 0x0008f651... (25 %)
+Writing at 0x00095e12... (27 %)
+Writing at 0x0009c797... (29 %)
+Writing at 0x000a276e... (30 %)
+Writing at 0x000a8782... (32 %)
+Writing at 0x000ae6b2... (34 %)
+Writing at 0x000b469b... (36 %)
+Writing at 0x000ba602... (38 %)
+Writing at 0x000c004e... (40 %)
+Writing at 0x000c5d67... (41 %)
+Writing at 0x000cbbce... (43 %)
+Writing at 0x000d19cb... (45 %)
+Writing at 0x000d83a1... (47 %)
+Writing at 0x000de2e9... (49 %)
+Writing at 0x000e4128... (50 %)
+Writing at 0x000ea8c6... (52 %)
+Writing at 0x000f044c... (54 %)
+Writing at 0x000f62c9... (56 %)
+Writing at 0x000fbf38... (58 %)
+Writing at 0x00101809... (60 %)
+Writing at 0x00106a06... (61 %)
+Writing at 0x0010c002... (63 %)
+Writing at 0x0011123e... (65 %)
+Writing at 0x0011697d... (67 %)
+Writing at 0x0011c026... (69 %)
+Writing at 0x00121909... (70 %)
+Writing at 0x00127260... (72 %)
+Writing at 0x0012cf5a... (74 %)
+Writing at 0x00132be4... (76 %)
+Writing at 0x0013871c... (78 %)
+Writing at 0x0013e6af... (80 %)
+Writing at 0x00144976... (81 %)
+Writing at 0x0014a501... (83 %)
+Writing at 0x001507dc... (85 %)
+Writing at 0x0015ac91... (87 %)
+Writing at 0x001622e0... (89 %)
+Writing at 0x001680af... (90 %)
+Writing at 0x0016e670... (92 %)
+Writing at 0x0017437e... (94 %)
+Writing at 0x001798f6... (96 %)
+Writing at 0x0017f7e4... (98 %)
+Writing at 0x00184ebd... (100 %)
+Wrote 1481248 bytes (898294 compressed) at 0x00020000 in 22.5 seconds (effective 527.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

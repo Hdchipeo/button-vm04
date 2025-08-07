@@ -1,0 +1,1288 @@
+�J*��͕}��ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (574) cpu_start: Pro cpu start user code[0m
+[0;32mI (574) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (574) app_init: Application information:[0m
+[0;32mI (577) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (587) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (593) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (656) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = false[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = false[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = false[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = false[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = false[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = false[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = false[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = false[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (597) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia�ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  9fb77ca8a...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initia

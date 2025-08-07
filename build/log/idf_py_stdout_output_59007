@@ -1,0 +1,527 @@
+�j5
+[0;3�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (574) cpu_start: Pro cpu start user code[0m
+[0;32mI (574) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (574) app_init: Application information:[0m
+[0;32mI (577) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (587) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (593) app_init: ELF file SHA256:  95e2159c5...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (656) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = false[0m
+[0;32mI (719) app_button: Initializing button...[0m
+[0;32mI (721) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (730) button: IoT Button Version: 4.1.3[0m
+[0;32mI (735) app_button: Button 1 initialized[0m
+[0;32mI (739) gpio: GPIO[3]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (748) app_button: Button 2 initialized[0m
+[0;32mI (753) app_main: Button device started, waiting for button presses...[0m
+[0;32mI (764) wifi:wifi driver task: 3ffd04bc, prio:23, stack:6656, core=0[0m
+[0;32mI (783) wifi:wifi firmware version: ccaebfa[0m
+[0;32mI (783) wifi:wifi certification version: v7.0[0m
+[0;32mI (783) wifi:config NVS flash: enabled[0m
+[0;32mI (784) wifi:config nano formating: disabled[0m
+[0;32mI (788) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (793) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (797) wifi:Init management short buffer num: 32[0m
+[0;32mI (801) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (805) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (809) wifi:Init static rx buffer num: 10[0m
+[0;32mI (813) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (818) wifi_init: rx ba win: 6[0m
+[0;32mI (821) wifi_init: accept mbox: 6[0m
+[0;32mI (824) wifi_init: tcpip mbox: 32[0m
+[0;32mI (828) wifi_init: udp mbox: 6[0m
+[0;32mI (832) wifi_init: tcp mbox: 6[0m
+[0;32mI (836) wifi_init: tcp tx win: 5760[0m
+[0;32mI (840) wifi_init: tcp rx win: 5760[0m
+[0;32mI (844) wifi_init: tcp mss: 1440[0m
+[0;32mI (848) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (853) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (858) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+[0;32mI (940) wifi:mode : sta (e4:65:b8:11:7f:9c)[0m
+[0;32mI (941) wifi:enable tsf[0m
+[0;32mI (945) ESPNOW: espnow [version: 1.0] init[0m
+[0;32mI (946) main_task: Returned from app_main()[0m
+[0;32mI (46870) app_button: Button long pressed[0m
+[0;32mI (46870) app_button: Restarting and updating firmware...[0m
+[0;32mI (46879) app_button: NVS written[0m
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  95e2159c5...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initializing button...[0m
+[0;32mI (721) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (730) button: IoT Button Version: 4.1.3[0m
+[0;32mI (735) app_button: Button 1 initialized[0m
+[0;32mI (739) gpio: GPIO[3]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (748) app_button: Button 2 initialized[0m
+[0;32mI (753) app_main: Button device started, waiting for button presses...[0m
+[0;32mI (768) app_button: NVS written[0m
+[0;32mI (773) wifi:wifi driver task: 3ffd0864, prio:23, stack:6656, core=0[0m
+[0;32mI (790) wifi:wifi firmware version: ccaebfa[0m
+[0;32mI (790) wifi:wifi certification version: v7.0[0m
+[0;32mI (790) wifi:config NVS flash: enabled[0m
+[0;32mI (790) wifi:config nano formating: disabled[0m
+[0;32mI (795) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (799) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (803) wifi:Init management short buffer num: 32[0m
+[0;32mI (808) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (812) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (816) wifi:Init static rx buffer num: 10[0m
+[0;32mI (820) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (825) wifi_init: rx ba win: 6[0m
+[0;32mI (827) wifi_init: accept mbox: 6[0m
+[0;32mI (831) wifi_init: tcpip mbox: 32[0m
+[0;32mI (835) wifi_init: udp mbox: 6[0m
+[0;32mI (839) wifi_init: tcp mbox: 6[0m
+[0;32mI (843) wifi_init: tcp tx win: 5760[0m
+[0;32mI (847) wifi_init: tcp rx win: 5760[0m
+[0;32mI (851) wifi_init: tcp mss: 1440[0m
+[0;32mI (855) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (860) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (876) esp_rmaker_work_queue: Work Queue created.[0m
+[0;32mI (888) esp_mqtt_glue: AWS PPI: ?Platform=APN3|A0|RM|EX00|RMDev|1x0|E465B8117F9C[0m
+[0;32mI (888) esp_mqtt_glue: Initialising MQTT[0m
+[0;32mI (891) esp_rmaker_mqtt_budget: MQTT Budgeting initialised. Default: 100, Max: 1024, Revive count: 1, Revive period: 5[0m
+[0;32mI (902) ESP_OTA: RainMaker Initialised.[0m
+[0;32mI (906) esp_rmaker_node: Node ID ----- VH3NewQB4quKbHQFkjXRsg[0m
+[0;32mI (912) esp_rmaker_ota_using_topics: OTA enabled with Topics[0m
+[0;32mI (920) esp_rmaker_ota: OTA state = 2[0m
+[0;32mI (923) esp_rmaker_time: Initializing SNTP. Using the SNTP server: pool.ntp.org[0m
+[0;32mI (936) esp_rmaker_time_service: Time service enabled[0m
+[0;32mI (936) esp_rmaker_core: Starting RainMaker Work Queue task[0m
+[0;32mI (943) esp_rmaker_work_queue: RainMaker Work Queue task started.[0m
+[0;32mI (954) network_prov_scheme_ble: BT memory released[0m
+[0;32mI (955) app_wifi: Already provisioned, starting Wi-Fi STA[0m
+[0;32mI (961) network_prov_scheme_ble: BTDM memory released[0m
+[0;32mI (967) esp_rmaker_local: Event 6[0m
+[0;32mI (972) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+[0;32mI (1055) wifi:mode : sta (e4:65:b8:11:7f:9c)[0m
+[0;32mI (1056) wifi:enable tsf[0m
+[0;32mI (3473) app_wifi: Disconnected. Connecting to the AP again...[0m
+[1;31mE (3476) wifi:NAN WiFi stop[0m
+[0;32mI (3477) wifi:flush txq[0m
+[0;32mI (3477) wifi:stop sw txq[0m
+[0;32mI (3477) wifi:lmac stop hw txq[0m
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  95e2159c5...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = false[0m
+[0;32mI (719) app_button: Initializing button...[0m
+[0;32mI (721) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (730) button: IoT Button Version: 4.1.3[0m
+[0;32mI (735) app_button: Button 1 initialized[0m
+[0;32mI (739) gpio: GPIO[3]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (748) app_button: Button 2 initialized[0m
+[0;32mI (753) app_main: Button device started, waiting for button presses...[0m
+[0;32mI (764) wifi:wifi driver task: 3ffd04bc, prio:23, stack:6656, core=0[0m
+[0;32mI (783) wifi:wifi firmware version: ccaebfa[0m
+[0;32mI (783) wifi:wifi certification version: v7.0[0m
+[0;32mI (783) wifi:config NVS flash: enabled[0m
+[0;32mI (784) wifi:config nano formating: disabled[0m
+[0;32mI (788) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (793) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (797) wifi:Init management short buffer num: 32[0m
+[0;32mI (801) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (805) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (809) wifi:Init static rx buffer num: 10[0m
+[0;32mI (813) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (818) wifi_init: rx ba win: 6[0m
+[0;32mI (821) wifi_init: accept mbox: 6[0m
+[0;32mI (824) wifi_init: tcpip mbox: 32[0m
+[0;32mI (828) wifi_init: udp mbox: 6[0m
+[0;32mI (832) wifi_init: tcp mbox: 6[0m
+[0;32mI (836) wifi_init: tcp tx win: 5760[0m
+[0;32mI (840) wifi_init: tcp rx win: 5760[0m
+[0;32mI (844) wifi_init: tcp mss: 1440[0m
+[0;32mI (848) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (853) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (858) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+[0;32mI (942) wifi:mode : sta (e4:65:b8:11:7f:9c)[0m
+[0;32mI (943) wifi:enable tsf[0m
+[0;32mI (947) ESPNOW: espnow [version: 1.0] init[0m
+[0;32mI (949) main_task: Returned from app_main()[0m
+[0;32mI (18510) app_button: Button long pressed[0m
+[0;32mI (18510) app_button: Restarting and updating firmware...[0m
+[0;32mI (18519) app_button: NVS written[0m
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (573) cpu_start: Pro cpu start user code[0m
+[0;32mI (573) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (573) app_init: Application information:[0m
+[0;32mI (576) app_init: Project name:     button-device[0m
+[0;32mI (582) app_init: App version:      1.9[0m
+[0;32mI (586) app_init: Compile time:     Aug  7 2025 23:03:58[0m
+[0;32mI (592) app_init: ELF file SHA256:  95e2159c5...[0m
+[0;32mI (598) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (603) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (608) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (613) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (618) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (625) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (631) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (637) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (643) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (649) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (655) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (662) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (670) spi_flash: detected chip: generic[0m
+[0;32mI (673) spi_flash: flash io: dio[0m
+[0;32mI (678) coexist: coex firmware version: 4482466[0m
+[0;32mI (683) main_task: Started on CPU0[0m
+[0;32mI (686) main_task: Calling app_main()[0m
+[0;32mI (717) app_main: Initializing NVS...[0m
+[0;32mI (719) app_button: Read ota_enabled = true[0m
+[0;32mI (719) app_button: Initializing button...[0m
+[0;32mI (721) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (730) button: IoT Button Version: 4.1.3[0m
+[0;32mI (735) app_button: Button 1 initialized[0m
+[0;32mI (739) gpio: GPIO[3]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (748) app_button: Button 2 initialized[0m
+[0;32mI (753) app_main: Button device started, waiting for button presses...[0m
+[0;32mI (768) app_button: NVS written[0m
+[0;32mI (773) wifi:wifi driver task: 3ffd0864, prio:23, stack:6656, core=0[0m
+[0;32mI (790) wifi:wifi firmware version: ccaebfa[0m
+[0;32mI (790) wifi:wifi certification version: v7.0[0m
+[0;32mI (790) wifi:config NVS flash: enabled[0m
+[0;32mI (790) wifi:config nano formating: disabled[0m
+[0;32mI (795) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (799) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (803) wifi:Init management short buffer num: 32[0m
+[0;32mI (808) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (812) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (816) wifi:Init static rx buffer num: 10[0m
+[0;32mI (820) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (825) wifi_init: rx ba win: 6[0m
+[0;32mI (827) wifi_init: accept mbox: 6[0m
+[0;32mI (831) wifi_init: tcpip mbox: 32[0m
+[0;32mI (835) wifi_init: udp mbox: 6[0m
+[0;32mI (839) wifi_init: tcp mbox: 6[0m
+[0;32mI (843) wifi_init: tcp tx win: 5760[0m
+[0;32mI (847) wifi_init: tcp rx win: 5760[0m
+[0;32mI (851) wifi_init: tcp mss: 1440[0m
+[0;32mI (855) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (860) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (876) esp_rmaker_work_queue: Work Queue created.[0m
+[0;32mI (888) esp_mqtt_glue: AWS PPI: ?Platform=APN3|A0|RM|EX00|RMDev|1x0|E465B8117F9C[0m
+[0;32mI (888) esp_mqtt_glue: Initialising MQTT[0m
+[0;32mI (891) esp_rmaker_mqtt_budget: MQTT Budgeting initialised. Default: 100, Max: 1024, Revive count: 1, Revive period: 5[0m
+[0;32mI (902) ESP_OTA: RainMaker Initialised.[0m
+[0;32mI (906) esp_rmaker_node: Node ID ----- VH3NewQB4quKbHQFkjXRsg[0m
+[0;32mI (912) esp_rmaker_ota_using_topics: OTA enabled with Topics[0m
+[0;32mI (920) esp_rmaker_ota: OTA state = 2[0m
+[0;32mI (923) esp_rmaker_time: Initializing SNTP. Using the SNTP server: pool.ntp.org[0m
+[0;32mI (936) esp_rmaker_time_service: Time service enabled[0m
+[0;32mI (936) esp_rmaker_core: Starting RainMaker Work Queue task[0m
+[0;32mI (943) esp_rmaker_work_queue: RainMaker Work Queue task started.[0m
+[0;32mI (954) network_prov_scheme_ble: BT memory released[0m
+[0;32mI (955) app_wifi: Already provisioned, starting Wi-Fi STA[0m
+[0;32mI (961) network_prov_scheme_ble: BTDM memory released[0m
+[0;32mI (967) esp_rmaker_local: Event 6[0m
+[0;32mI (972) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+[0;32mI (1054) wifi:mode : sta (e4:65:b8:11:7f:9c)[0m
+[0;32mI (1055) wifi:enable tsf[0m
+[0;32mI (3473) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:9, snd_ch_cfg:0x0[0m
+[0;32mI (3475) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (3488) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (3495) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (3529) wifi:connected with Minh Tâm, aid = 1, channel 6, BW20, bssid = 1e:94:e0:fe:53:98[0m
+[0;32mI (3530) wifi:security: WPA2-PSK, phy: bgn, rssi: -50[0m
+[0;32mI (3534) wifi:pm start, type: 1[0m
+
+[0;32mI (3534) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (3551) wifi:AP's beacon interval = 102400 us, DTIM period = 3[0m
+[0;32mI (5048) esp_netif_handlers: sta ip: 172.20.10.5, mask: 255.255.255.240, gw: 172.20.10.1[0m
+[0;32mI (5049) app_network: Connected with IP Address:172.20.10.5[0m
+[0;32mI (5053) app_main: OTA device started, waiting for OTA...[0m
+[0;32mI (5053) esp_rmaker_cmd_resp: Enabling Command-Response Module.[0m
+[0;32mI (5065) esp_rmaker_node: Node attribute cmd-resp created[0m
+[0;32mI (5071) esp_rmaker_local: Enabling Local Control[0m
+[0;32mI (5078) esp_rmaker_local: Local Control Service Enabled[0m
+[0;32mI (5083) esp_rmaker_local: Starting ESP Local control with HTTP Transport and security version: 1[0m
+[0;32mI (5088) main_task: Returned from app_main()[0m
+[0;32mI (5094) mdns_mem: mDNS task will be created from internal RAM[0m
+[0;32mI (5107) esp_https_server: Starting server[0m
+[0;32mI (5111) esp_https_server: Server listening on port 8080[0m
+[0;32mI (5116) esp_rmaker_local: esp_local_ctrl service started with name : VH3NewQB4quKbHQFkjXRsg[0m
+[0;32mI (5124) esp_mqtt_glue: Connecting to a1p72mufdu6064-ats.iot.us-east-1.amazonaws.com[0m
+[0;32mI (5124) ESP_OTA: Local Control Started.[0m
+[0;32mI (5132) esp_rmaker_core: Waiting for MQTT connection[0m
+[0;32mI (5140) wifi:<ba-add>idx:0 (ifx:0, 1e:94:e0:fe:53:98), tid:0, ssn:2, winSize:64[0m
+[0;32mI (6324) esp-x509-crt-bundle: Certificate validated[0m
+[0;32mI (8404) esp_mqtt_glue: MQTT Connected[0m
+[0;32mI (8405) ESP_OTA: MQTT Connected.[0m
+[0;32mI (8405) esp_rmaker_cmd_resp: Checking for pending commands.[0m
+[0;32mI (8417) esp_rmaker_node_config: Generated Node config of length 781[0m
+[0;32mI (8424) esp_rmaker_param: Params MQTT Init done.[0m
+[0;32mI (8425) esp_rmaker_param: Reporting params (init): {"Time":{"TZ":"Asia/Ho_Chi_Minh","TZ-POSIX":"<+07>-7"},"Local Control":{"POP":"e3a9a659","Type":1}}[0m
+[0;32mI (8438) esp_rmaker_ota_using_topics: Subscribing to: node/VH3NewQB4quKbHQFkjXRsg/otaurl[0m
+[0;32mI (9705) ESP_OTA: MQTT Published. Msg id: 24980.[0m
+[0;32mI (9709) ESP_OTA: MQTT Published. Msg id: 14004.[0m
+[0;32mI (9712) ESP_OTA: MQTT Published. Msg id: 12644.[0m
+[0;32mI (13446) esp_rmaker_ota_using_topics: Fetching OTA details, if any.[0m
+[0;32mI (14004) ESP_OTA: MQTT Published. Msg id: 21336.[0m
+[0;32mI (14315) esp_rmaker_ota_using_topics: Upgrade Handler got:{"url":"https://esp-rainmaker-ota-315787942180-prod.s3.amazonaws.com/users/Google_CMpVCeTaLxeAaLQyU9echt/firmwareimages/8VFb5nlHR/Button%20v1.9.1.bin?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUTBTNTESPBEZ4ICB%2F20250807%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250807T161743Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFkaCXVzLWVhc3QtMSJHMEUCIEKjbPs0Hksk2GBvTdnfNZOn5Poj%2FYHy%2F04ZzvmmUSxRAiEAl%2FEWPcoWYNToEEAIQ1rCsbfoj4F3ldY5hTOLiari8%2BcqgQMIkf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzMTU3ODc5NDIxODAiDFwXjwAh6tXognv2bCrVArnyMYDAF1B0ROUtpzEvz7r7qhWqNRbAs0qxGW0DnOyGZNLUQ59UUuwoeY6AAgSzURJfUQvPOQyw2AZL%2FAd%2FIkoa%2F8tLX1SwBTiG%2FaPv8Sw6zGoZftpjqiCiajnPxF7Qo2k9FdYDVPwC4%2F%2FGI%2FWIqZnLP4V5qzPfb0cHIEdKZOEWEZ8CbVNJF%2FcXwLDR767LQh4Xr1fLXibS%2BZJVOUuwbkdZ0xoUSZsBzgeKvdXX6HyNo0Ea7JUoSk9VmPDo6sxX3uYoZ29nnQdDyf0mCMONOp7cruBroGehfIWtr0SSQxh2v3kWvTlt%2FQc3jDfBfOh57cuGK0vE2n2%2BKEZKA0z7FzwNaH%2Bx68tXzN78RWz6Dwbc0NWMGjJAgIxcJxx9cS%2BGEjJgLlpJaiCTHoPyzCMUNH98fhK8bcHq1WiynMrM9ITxVDZ%2Fcn%2FbM7WTcqggY5%2FkXV%2FY%2FFxkMMqf08QGOp4BS98SzFQ%2Bvzjr3i6F%2FPc2IlsPMZ930txCCFmDGQS1V7437HhDY9tQdUiJ%2BhYEJXJx8gWciwZC%2FPC6toLUfsDeJf%2BMoVm%2BwkfkiCT1LMeIK44UyA59kkvzQmasuyeF%2FlNr3JEL3sW0GZpyk31Wagq%2FCHoP6%2FIBRHm%2Fi0NTJr9gkJHidXMx9qCnyW7zHnfjkDchowLaAO760FzMDZudPXE%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c5a993d4b86c476e4ee382415fca515432ce00ab4a2fce2348a47f875dc1f66e","file_md5":"1cfc777d849ba6d7fb31eaf742db0be3","fw_version":"1.9.1","ota_job_id":"gkUoN75RCYmNjyApskyjB9","file_size":1481248,"stream_id":"So28Segem5fRbgDQoYUsYg"}
+ on node/VH3NewQB4quKbHQFkjXRsg/otaurl topic
+[0m
+[0;32mI (14460) esp_rmaker_ota_using_topics: OTA Job ID: gkUoN75RCYmNjyApskyjB9[0m
+[0;32mI (14461) esp_rmaker_ota_using_topics: URL: https://esp-rainmaker-ota-315787942180-prod.s3.amazonaws.com/users/Google_CMpVCeTaLxeAaLQyU9echt/firmwareimages/8VFb5nlHR/Button%20v1.9.1.bin?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAUTBTNTESPBEZ4ICB%2F20250807%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250807T161743Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFkaCXVzLWVhc3QtMSJHMEUCIEKjbPs0Hksk2GBvTdnfNZOn5Poj%2FYHy%2F04ZzvmmUSxRAiEAl%2FEWPcoWYNToEEAIQ1rCsbfoj4F3ldY5hTOLiari8%2BcqgQMIkf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwzMTU3ODc5NDIxODAiDFwXjwAh6tXognv2bCrVArnyMYDAF1B0ROUtpzEvz7r7qhWqNRbAs0qxGW0DnOyGZNLUQ59UUuwoeY6AAgSzURJfUQvPOQyw2AZL%2FAd%2FIkoa%2F8tLX1SwBTiG%2FaPv8Sw6zGoZftpjqiCiajnPxF7Qo2k9FdYDVPwC4%2F%2FGI%2FWIqZnLP4V5qzPfb0cHIEdKZOEWEZ8CbVNJF%2FcXwLDR767LQh4Xr1fLXibS%2BZJVOUuwbkdZ0xoUSZsBzgeKvdXX6HyNo0Ea7JUoSk9VmPDo6sxX3uYoZ29nnQdDyf0mCMONOp7cruBroGehfIWtr0SSQxh2v3kWvTlt%2FQc3jDfBfOh57cuGK0vE2n2%2BKEZKA0z7FzwNaH%2Bx68tXzN78RWz6Dwbc0NWMGjJAgIxcJxx9cS%2BGEjJgLlpJaiCTHoPyzCMUNH98fhK8bcHq1WiynMrM9ITxVDZ%2Fcn%2FbM7WTcqggY5%2FkXV%2FY%2FFxkMMqf08QGOp4BS98SzFQ%2Bvzjr3i6F%2FPc2IlsPMZ930txCCFmDGQS1V7437HhDY9tQdUiJ%2BhYEJXJx8gWciwZC%2FPC6toLUfsDeJf%2BMoVm%2BwkfkiCT1LMeIK44UyA59kkvzQmasuyeF%2FlNr3JEL3sW0GZpyk31Wagq%2FCHoP6%2FIBRHm%2Fi0NTJr9gkJHidXMx9qCnyW7zHnfjkDchowLaAO760FzMDZudPXE%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c5a993d4b86c476e4ee382415fca515432ce00ab4a2fce2348a47f875dc1f66e[0m
+[0;32mI (14583) esp_rmaker_ota_using_topics: File Size: 1481248[0m
+[0;32mI (14590) esp_rmaker_ota_using_topics: Firmware version: 1.9.1[0m
+[0;32mI (14597) ESP_OTA: Starting OTA.[0m
+[0;32mI (14598) esp_rmaker_ota: Reporting in-progress: Starting OTA Upgrade (HTTPS attempt 1/3)[0m
+[0;32mI (14609) esp_rmaker_ota_using_topics: {"ota_job_id":"gkUoN75RCYmNjyApskyjB9","status":"in-progress","additional_info":"Starting OTA Upgrade (HTTPS attempt 1/3)","ts":82}[0m
+[0;33mW (14628) esp_rmaker_ota: Starting HTTPS OTA attempt 1/3. This may take time.[0m
+[0;32mI (14628) ESP_OTA: OTA is in progress.[0m
+[0;33mW (14633) esp_rmaker_https_ota: Starting OTA. This may take time.[0m
+[0;32mI (15848) ESP_OTA: MQTT Published. Msg id: 54080.[0m
+[0;32mI (16566) esp-x509-crt-bundle: Certificate validated[0m
+[0;32mI (20460) esp_https_ota: Starting OTA...[0m
+[0;32mI (20461) esp_https_ota: Writing to partition subtype 17 at offset 0x200000[0m
+[0;32mI (20462) wifi:Set ps type: 0, coexist: 0[0m
+
+[0;32mI (22424) esp_rmaker_ota: Reporting in-progress: Downloading Firmware Image[0m
+[0;32mI (22426) esp_rmaker_ota_using_topics: {"ota_job_id":"gkUoN75RCYmNjyApskyjB9","status":"in-progress","additional_info":"Downloading Firmware Image","ts":90}[0m
+[0;32mI (22440) ESP_OTA: OTA is in progress.[0m
+[0;32mI (22885) ESP_OTA: MQTT Published. Msg id: 2702.[0m
+[0;32mI (26721) esp_rmaker_https_ota: Image bytes read: 51200[0m
+[0;32mI (37441) esp_rmaker_https_ota: Image bytes read: 102400[0m
+[0;32mI (44162) esp_rmaker_https_ota: Image bytes read: 153600[0m
+[0;32mI (51645) esp_rmaker_https_ota: Image bytes read: 204800[0m
+[0;32mI (57892) esp_rmaker_https_ota: Image bytes read: 256000[0m
+[0;32mI (63639) esp_rmaker_https_ota: Image bytes read: 307200[0m
+[0;32mI (70224) esp_rmaker_https_ota: Image bytes read: 358400[0m
+[0;32mI (76586) esp_rmaker_https_ota: Image bytes read: 409600[0m
+[0;32mI (82653) esp_rmaker_https_ota: Image bytes read: 460800[0m
+[0;32mI (88742) esp_rmaker_https_ota: Image bytes read: 512000[0m
+[0;32mI (94171) esp_rmaker_https_ota: Image bytes read: 563200[0m
+[0;32mI (99902) esp_rmaker_https_ota: Image bytes read: 614400[0m
+[0;32mI (105661) esp_rmaker_https_ota: Image bytes read: 665600[0m
+[0;32mI (111570) esp_rmaker_https_ota: Image bytes read: 716800[0m
+[0;32mI (117819) esp_rmaker_https_ota: Image bytes read: 768000[0m
+[0;32mI (123389) esp_rmaker_https_ota: Image bytes read: 819200[0m
+[0;32mI (129628) esp_rmaker_https_ota: Image bytes read: 870400[0m
+[0;32mI (133295) esp_rmaker_https_ota: Image bytes read: 921600[0m
+[0;32mI (139527) esp_rmaker_https_ota: Image bytes read: 972800[0m
+[0;32mI (145421) esp_rmaker_https_ota: Image bytes read: 1024000[0m
+[0;32mI (151358) esp_rmaker_https_ota: Image bytes read: 1075200[0m
+[0;32mI (157251) esp_rmaker_https_ota: Image bytes read: 1126400[0m
+[0;32mI (163636) esp_rmaker_https_ota: Image bytes read: 1177600[0m
+[0;32mI (171306) esp_rmaker_https_ota: Image bytes read: 1228800[0m
+[0;32mI (178042) esp_rmaker_https_ota: Image bytes read: 1280000[0m
+[0;32mI (184106) esp_rmaker_https_ota: Image bytes read: 1331200[0m
+[0;32mI (190811) esp_rmaker_https_ota: Image bytes read: 1382400[0m
+[0;32mI (198472) esp_rmaker_https_ota: Image bytes read: 1433600[0m
+[0;32mI (203723) esp_rmaker_ota: Reporting in-progress: Firmware Image download complete[0m
+[0;32mI (203724) esp_rmaker_ota_using_topics: {"ota_job_id":"gkUoN75RCYmNjyApskyjB9","status":"in-progress","additional_info":"Firmware Image download complete","ts":272}[0m
+[0;32mI (203742) wifi:Set ps type: 1, coexist: 0[0m
+
+[0;32mI (203743) ESP_OTA: OTA is in progress.[0m
+[0;32mI (203744) esp_image: segment 0: paddr=00200020 vaddr=3f400020 size=4acc8h (306376) map[0m
+[0;32mI (203838) esp_image: segment 1: paddr=0024acf0 vaddr=3ffbdb60 size=05328h ( 21288) [0m
+[0;32mI (203847) esp_image: segment 2: paddr=00250020 vaddr=400d0020 size=fcb94h (1035156) map[0m
+[0;32mI (204128) esp_image: segment 3: paddr=0034cbbc vaddr=3ffc2e88 size=00b44h (  2884) [0m
+[0;32mI (204132) esp_image: segment 4: paddr=0034d708 vaddr=40080000 size=1c2ech (115436) [0m
+[0;32mI (204174) esp_image: segment 0: paddr=00200020 vaddr=3f400020 size=4acc8h (306376) map[0m
+[0;32mI (204198) ESP_OTA: MQTT Published. Msg id: 58656.[0m
+[0;32mI (204265) esp_image: segment 1: paddr=0024acf0 vaddr=3ffbdb60 size=05328h ( 21288) [0m
+[0;32mI (204274) esp_image: segment 2: paddr=00250020 vaddr=400d0020 size=fcb94h (1035156) map[0m
+[0;32mI (204557) esp_image: segment 3: paddr=0034cbbc vaddr=3ffc2e88 size=00b44h (  2884) [0m
+[0;32mI (204560) esp_image: segment 4: paddr=0034d708 vaddr=40080000 size=1c2ech (115436) [0m
+[0;32mI (204617) esp_rmaker_ota: Reporting in-progress: Rebooting into new firmware (after 1 HTTPS attempt)[0m
+[0;32mI (204618) esp_rmaker_ota_using_topics: {"ota_job_id":"gkUoN75RCYmNjyApskyjB9","status":"in-progress","additional_info":"Rebooting into new firmware (after 1 HTTPS attempt)","ts":272}[0m
+[0;32mI (204639) esp_rmaker_ota: HTTPS OTA upgrade successful. Rebooting in 10 seconds...[0m
+[0;32mI (204641) ESP_OTA: OTA is in progress.[0m
+[0;32mI (204647) ESP_OTA: Rebooting in 10 seconds.[0m
+[0;32mI (205086) ESP_OTA: MQTT Published. Msg id: 1101.[0m
+[0;32mI (214643) wifi:state: run -> init (0x0)[0m
+[0;32mI (214647) wifi:pm stop, total sleep time: 24003825 us / 211113206 us[0m
+
+[0;32mI (214648) wifi:<ba-del>idx:0, tid:0[0m
+[0;32mI (214649) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:9, snd_ch_cfg:0x0[0m
+[1;31mE (214656) wifi:NAN WiFi stop[0m
+[0;32mI (214659) app_wifi: Disconnected. Connecting to the AP again...[0m
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:5940
+load:0x40078000,len:15216
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3492
+entry 0x400805d0
+[0;32mI (589) cpu_start: Multicore app[0m
+[0;32mI (598) cpu_start: Pro cpu start user code[0m
+[0;32mI (598) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (598) app_init: Application information:[0m
+[0;32mI (601) app_init: Project name:     button-device[0m
+[0;32mI (606) app_init: App version:      1.9.1[0m
+[0;32mI (611) app_init: Compile time:     Aug  7 2025 23:01:52[0m
+[0;32mI (617) app_init: ELF file SHA256:  ef892e088...[0m
+[0;32mI (622) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (628) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (632) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (637) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (642) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (649) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (655) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (661) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (668) heap_init: At 3FFCB610 len 000149F0 (82 KiB): DRAM[0m
+[0;32mI (674) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (680) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (686) heap_init: At 4009C2EC len 00003D14 (15 KiB): IRAM[0m
+[0;32mI (694) spi_flash: detected chip: generic[0m
+[0;32mI (697) spi_flash: flash io: dio[0m
+[0;32mI (702) coexist: coex firmware version: 4482466[0m
+[0;32mI (708) main_task: Started on CPU0[0m
+[0;32mI (711) main_task: Calling app_main()[0m
+[0;32mI (743) app_main: Initializing NVS...[0m
+[0;32mI (745) app_button: Read ota_enabled = false[0m
+[0;32mI (745) app_button: Initializing button...[0m
+[0;32mI (747) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (756) button: IoT Button Version: 4.1.3[0m
+[0;32mI (761) app_button: Button 1 initialized[0m
+[0;32mI (765) gpio: GPIO[3]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (774) app_button: Button 2 initialized[0m
+[0;32mI (779) app_main: Button device started, waiting for button presses...[0m
+[0;32mI (790) wifi:wifi driver task: 3ffd04bc, prio:23, stack:6656, core=0[0m
+[0;32mI (809) wifi:wifi firmware version: ccaebfa[0m
+[0;32mI (809) wifi:wifi certification version: v7.0[0m
+[0;32mI (809) wifi:config NVS flash: enabled[0m
+[0;32mI (809) wifi:config nano formating: disabled[0m
+[0;32mI (814) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (818) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (822) wifi:Init management short buffer num: 32[0m
+[0;32mI (827) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (831) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (835) wifi:Init static rx buffer num: 10[0m
+[0;32mI (839) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (844) wifi_init: rx ba win: 6[0m
+[0;32mI (846) wifi_init: accept mbox: 6[0m
+[0;32mI (850) wifi_init: tcpip mbox: 32[0m
+[0;32mI (854) wifi_init: udp mbox: 6[0m
+[0;32mI (858) wifi_init: tcp mbox: 6[0m
+[0;32mI (862) wifi_init: tcp tx win: 5760[0m
+[0;32mI (866) wifi_init: tcp rx win: 5760[0m
+[0;32mI (870) wifi_init: tcp mss: 1440[0m
+[0;32mI (874) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (879) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (884) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+[0;32mI (970) wifi:mode : sta (e4:65:b8:11:7f:9c)[0m
+[0;32mI (971) wifi:enable tsf[0m
+[0;32mI (975) ESPNOW: espnow [version: 1.0] init[0m
+[0;32mI (977) main_task: Returned from app_main()[0m

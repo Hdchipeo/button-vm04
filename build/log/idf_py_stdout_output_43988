@@ -1,0 +1,112 @@
+[1/12] Performing build step for 'bootloader'
+[1/1] cd /Users/dangminhtam/esp32-test/Button-remote/build/bootloader/esp-idf/esptool_py && /Users/dangminhtam/.espressif/python_env/idf5.3_py3.13_env/bin/python /Users/dangminhtam/esp/esp-idf/components/partition_table/check_sizes.py --offset 0xc000 bootloader 0x1000 /Users/dangminhtam/esp32-test/Button-remote/build/bootloader/bootloader.bin
+Bootloader binary size 0x60b0 bytes. 0x4f50 bytes (45%) free.
+[2/12] No install step for 'bootloader'
+[3/12] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[4/12] Completed 'bootloader'
+[5/12] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_driver.c.obj
+[6/12] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_now_hub.c.obj
+[7/12] Linking C static library esp-idf/main/libmain.a
+[8/12] Generating ld/sections.ld
+[9/12] Linking CXX executable button-device.elf
+[10/12] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/dangminhtam/esp32-test/Button-remote/build/button-device.bin
+[11/12] cd /Users/dangminhtam/esp32-test/Button-remote/build/esp-idf/esptool_py && /Users/dangminhtam/.espressif/python_env/idf5.3_py3.13_env/bin/python /Users/dangminhtam/esp/esp-idf/components/partition_table/check_sizes.py --offset 0xc000 partition --type app /Users/dangminhtam/esp32-test/Button-remote/build/partition_table/partition-table.bin /Users/dangminhtam/esp32-test/Button-remote/build/button-device.bin
+button-device.bin binary size 0x169a20 bytes. Smallest app partition is 0x1c0000 bytes. 0x565e0 bytes (19%) free.
+[11/12] cd /Users/dangminhtam/esp/esp-idf/components/esptool_py && /opt/local/bin/cmake -D IDF_PATH=/Users/dangminhtam/esp/esp-idf -D "SERIAL_TOOL=/Users/dangminhtam/.espressif/python_env/idf5.3_py3.13_env/bin/python;;/Users/dangminhtam/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/dangminhtam/esp32-test/Button-remote/build -P /Users/dangminhtam/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/cu.usbserial-10 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x20000 button-device.bin 0xc000 partition_table/partition-table.bin 0x16000 ota_data_initial.bin
+esptool.py v4.8.1
+Serial port /dev/cu.usbserial-10
+Connecting.....
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: e4:65:b8:11:7f:9c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00020000 to 0x00189fff...
+Flash will be erased from 0x0000c000 to 0x0000cfff...
+Flash will be erased from 0x00016000 to 0x00017fff...
+SHA digest in image updated
+Compressed 24752 bytes to 15359...
+Writing at 0x00001000... (100 %)
+Wrote 24752 bytes (15359 compressed) at 0x00001000 in 0.7 seconds (effective 301.0 kbit/s)...
+Hash of data verified.
+Compressed 1481248 bytes to 898290...
+Writing at 0x00020000... (1 %)
+Writing at 0x0002e6c8... (3 %)
+Writing at 0x0003dc11... (5 %)
+Writing at 0x0004b0f5... (7 %)
+Writing at 0x00053a25... (9 %)
+Writing at 0x0005a4bb... (10 %)
+Writing at 0x0005f2e0... (12 %)
+Writing at 0x0006734f... (14 %)
+Writing at 0x00072cb0... (16 %)
+Writing at 0x00078535... (18 %)
+Writing at 0x0007e4b7... (20 %)
+Writing at 0x00084206... (21 %)
+Writing at 0x00089c32... (23 %)
+Writing at 0x0008f65a... (25 %)
+Writing at 0x00095e1e... (27 %)
+Writing at 0x0009c79e... (29 %)
+Writing at 0x000a2777... (30 %)
+Writing at 0x000a8788... (32 %)
+Writing at 0x000ae6b7... (34 %)
+Writing at 0x000b46a3... (36 %)
+Writing at 0x000ba608... (38 %)
+Writing at 0x000c0052... (40 %)
+Writing at 0x000c5d6e... (41 %)
+Writing at 0x000cbbd1... (43 %)
+Writing at 0x000d19d5... (45 %)
+Writing at 0x000d83a6... (47 %)
+Writing at 0x000de2ee... (49 %)
+Writing at 0x000e4131... (50 %)
+Writing at 0x000ea8cb... (52 %)
+Writing at 0x000f0453... (54 %)
+Writing at 0x000f62d1... (56 %)
+Writing at 0x000fbf3d... (58 %)
+Writing at 0x00101810... (60 %)
+Writing at 0x00106a0c... (61 %)
+Writing at 0x0010c008... (63 %)
+Writing at 0x00111247... (65 %)
+Writing at 0x00116981... (67 %)
+Writing at 0x0011c02f... (69 %)
+Writing at 0x00121912... (70 %)
+Writing at 0x00127268... (72 %)
+Writing at 0x0012cf62... (74 %)
+Writing at 0x00132bea... (76 %)
+Writing at 0x00138723... (78 %)
+Writing at 0x0013e6b4... (80 %)
+Writing at 0x00144986... (81 %)
+Writing at 0x0014a507... (83 %)
+Writing at 0x001507e2... (85 %)
+Writing at 0x0015ac9f... (87 %)
+Writing at 0x001622e7... (89 %)
+Writing at 0x001680bc... (90 %)
+Writing at 0x0016e675... (92 %)
+Writing at 0x00174384... (94 %)
+Writing at 0x00179900... (96 %)
+Writing at 0x0017f7ed... (98 %)
+Writing at 0x00184ec4... (100 %)
+Wrote 1481248 bytes (898290 compressed) at 0x00020000 in 22.5 seconds (effective 527.2 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 196...
+Writing at 0x0000c000... (100 %)
+Wrote 3072 bytes (196 compressed) at 0x0000c000 in 0.0 seconds (effective 593.1 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x00016000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x00016000 in 0.1 seconds (effective 941.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
